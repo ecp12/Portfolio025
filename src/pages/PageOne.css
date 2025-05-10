@@ -1,0 +1,13 @@
+.One{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 70vh;
+   background: rgba(255, 255, 255, 0.068);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.192);
+   backdrop-filter: blur(3.9px);
+   -webkit-backdrop-filter: blur(3.9px);
+   border: 1px solid rgba(253, 253, 253, 0.082);
+   z-index: 1;
+}

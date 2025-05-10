@@ -1,0 +1,48 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background-color: rgba(0, 0, 0, 1);
+  box-shadow: 0 20px 16px rgba(8, 11, 207, 0.397);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.nav-container.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-logo {
+  flex: 0 0 auto;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+  color: #1335a7;
+}
